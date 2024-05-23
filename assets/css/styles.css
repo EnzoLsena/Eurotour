@@ -34,7 +34,7 @@ body {
   }
   
   
-  #torre, #lyonn, #c1850, #nice {
+  #torre, #amboise, #tours {
     width: 200%;
     height: auto;
     background-color: #fff;
@@ -44,7 +44,7 @@ body {
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
   }
-  #zuri, #stM, #gene, #mont {
+  #lisboa, #porto, #coimbra {
     width: 200%;
     height: auto;
     background-color: #fff;
@@ -54,7 +54,17 @@ body {
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
   } 
-  #praia, #veneza, #fonte, #pisa {
+  #amster, #roter, #haia {
+    width: 200%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  #belg, #bru, #bruges {
     width: 200%;
     height: auto;
     background-color: #fff;

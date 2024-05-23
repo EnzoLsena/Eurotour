@@ -1,8 +1,8 @@
 const apiKey = '3bbf2d5ba081cb9d6251d7f1eb35cd09';
-const cities = ['Paris', 'Nice', 'Courchevel'];
+const cities = ['Paris', 'Tours','Amboise', 'lisboa', 'porto', 'coimbra','Amsterdam','rotterdam','hague','bruges', 'brussels', 'ghent'];
 
 async function fetchWeatherData(city) {
-    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=pt_br&appid=${apiKey}`);
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=fr&appid=${apiKey}`);
     const data = await response.json();
     return data;
 }
